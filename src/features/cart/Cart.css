@@ -1,0 +1,29 @@
+.cart-item{
+  background-color: rgb(199, 198, 198);
+  max-width: 1080px;
+  margin: auto;
+  display: flex;
+  border: 1px solid grey;
+  justify-content: space-around;
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 1rem;
+}
+
+.img-fluid{
+  width: 150px;
+}
+
+.quantity{
+  padding: 1rem;
+}
+
+.close{
+  margin-left: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
